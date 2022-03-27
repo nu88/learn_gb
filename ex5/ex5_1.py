@@ -4,7 +4,7 @@ def odd_num(to):
         yield i
 #указываем диапазон
 if __name__ == "__main__":
-    a_gen = odd_num(15)
+    a_gen = odd_num(10)
 #тип переменных
     print("a_gen type", type(a_gen))
 #вызов элементов генератора
